@@ -12,22 +12,63 @@
     body {
         font-family: 'Courier New', monospace;
         text-align: center;
+          background-color: #87bff9;
+          color: #fff;
+          margin: 0;
+          padding: 20px;
     }
 
     h1 {
         font-family: 'Courier New', monospace;
+        font-size: 36px;
     }
 
     p {
         font-family: 'Courier New', monospace;
+        font-size: 18px;
     }
+
+    .heading-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0 auto;
+            text-align: center; 
+
+    .toolbar {
+            display: flex;
+            gap: 10px;
+        }
+
+      .toolbar button {
+        padding: 6px 4px;
+        background-color: #819bb6;
+        border: 1px solid #2c2c2c;  
+        cursor: pointer;  
+        border-radius: 3px;  
+        font-size: 16px;  
+        transition: background-color 0.3s ease-in-out;      
+}
+
+
+        .toolbar button:hover {
+          background-color: #214b7a;
+        }
   </style>
 
 <body>
 
+<div class="heading-container">
+  <div class="toolbar">
+      <button>About</button>
+      <button>Option 2</button>
+      <button>Option 3</button>
+    </div>
+</div>
+
 <h1>Hello World</h1>
 
-<p>My name is Jeff. Welcome to Caesium, my first coding projectCaleb Stallard. 
+<p>My name is Jeff. Welcome to Caesium, my first coding project. 
   <br> Let us see where this takes me</p>
 
 
