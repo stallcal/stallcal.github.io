@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', monospace;
   text-align: center;
-  background-color: #87bff9;
+  background-color: #3B65D9;
   color: #fff;
   margin: 0;
   padding: 20px;
@@ -32,7 +32,7 @@ p {
 
 .toolbar button {
   padding: 6px 4px;
-  background-color: #819bb6;
+  background-color: #454A59;
   border: 1px solid #2c2c2c;  
   cursor: pointer;  
   border-radius: 3px;  
