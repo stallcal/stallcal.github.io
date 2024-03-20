@@ -19,17 +19,41 @@
         </a>
     </div>
   </div>
-    <h1>About Me</h1>
-    <p>This is a placeholder for my about me.</p>
 
-    <script>
+
+    <h1>About Me</h1>
+  <div class="content">
+    <p>
+      Hello, my name is Caleb. 
+      I am on my 3rd year of a B.S. in Chemistry at the University of Texas at Dallas. 
+      You can find me on LinkedIn by following the button above. 
+      You can find me on discord @deagaroni and on github @stallcal
+    </p>
+    <!-- caleb, make buttons to link to discord/github/orcid?
+maybe once wriedt lab site is back up link there as well.-->
+    <p>
+      I have worked and played around computers for most of my life and have started
+      several project but given them up pretty quickly afterwards.
+      My current goal is to learn just enough to accomplish a few personal projects
+      and to be able to communicate with other developers about ideas in the future.
+      I am currently working with HTML and CSS, but have a few Python projects
+      that haven't left the drawing table. 
+    </p>
+  </div>
+
+
+  <footer class="footer">
+      <p>Copyright © 2024 Caleb Stallard</p>
+  </footer>
+
+  <script>
       function removeHtmlExtension() {
         var currentUrl = window.location.href;
         var newUrl = currentUrl.replace('.html', '');
         window.history.replaceState(null, null, newUrl);
       }
       window.onload = removeHtmlExtension;
-    </script>
+  </script>
     
 </body>
 </html>

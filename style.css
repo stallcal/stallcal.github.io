@@ -1,7 +1,12 @@
 :root {
   --main-font: 'Courier New', monospace;
-  --main-color: #3B65D9;
+  --main-color:#3e65ce;
   --hover-color: #214b7a;
+  --secondary-color: #214b7a;
+  --background-color: #fff;
+  --text-color: #333;
+  --padding: 20px; 
+  --margin: 10px; 
 }
 
 body {
@@ -13,9 +18,15 @@ body {
   padding: 20px;
 }
 
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: Center;
+}
+
 h1 {
   font-family: var(--main-font);
-  font-size: 36px;
+  font-size: 42px;
 }
 
 p {
@@ -49,6 +60,17 @@ p {
 
 .toolbar button:hover {
   background-color: var(--hover-color);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #323a52;
+  color: white;
+  text-align: center;
+  padding: 4px 0;
 }
 
 @media (max-width: 600px) {
