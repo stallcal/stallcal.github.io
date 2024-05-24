@@ -1,8 +1,8 @@
 :root {
   --main-font: 'Courier New', monospace;
-  --main-color:#3e65ce;
-  --hover-color: #214b7a;
-  --secondary-color: #214b7a;
+  --main-color:#000000;
+  --hover-color: #dc48c8;
+  --secondary-color: #9a0c55;
   --background-color: #fff;
   --text-color: #333;
   --padding: 20px; 
@@ -27,7 +27,13 @@ body {
 
 h1 {
   font-family: var(--main-font);
-  font-size: 42px;
+  font-size: 44px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: var(--main-font);
+  font-size: 36px;
 }
 
 p {
@@ -40,6 +46,7 @@ p {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
+  min-width: 1600px;
   text-align: center; 
 }
 
@@ -50,13 +57,14 @@ p {
 
 .toolbar button {
     padding: 6px 4px;
-    background-color: #454A59;
-    border: 2px solid #2c2c2c;  
+    background-color: #000000;
+    border: 2px solid #1d63a8;  
     cursor: pointer;  
     border-radius: 3px;  
     font-size: 16px;  
+    font-family: 'Courier New', Courier, monospace;
     transition: background-color 0.3s ease-in-out; 
-    color: #ffffff;
+    color: #408be6;
 } 
 
 .toolbar button:hover {
@@ -68,7 +76,8 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #323a52;
+  background-color: #000000;
+  border-top: #1d63a8;
   color: white;
   text-align: center;
   padding: 4px 0;
