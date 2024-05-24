@@ -30,15 +30,21 @@ h1 {
   font-size: 44px;
   margin-top: 50px;
 }
-
-h2 {
+#logo {
   font-family: var(--main-font);
-  font-size: 36px;
+  font-size: 44px;
+  margin-top: 50px;
 }
 
-p {
+body {
   font-family: var(--main-font);
   font-size: 18px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .heading-container {
@@ -57,7 +63,7 @@ p {
 
 .toolbar button {
     padding: 6px 4px;
-    background-color: #000000;
+    background-color: #101010;
     border: 2px solid #1d63a8;  
     cursor: pointer;  
     border-radius: 3px;  
@@ -84,9 +90,12 @@ p {
   flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .toolbar {
     flex-direction: row;
     gap: 5px;
+  }
+  #logo {
+      font-size: 9px;
   }
 }
