@@ -92,8 +92,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .toolbar {
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px;
+    flex-wrap: wrap;
   }
   #logo {
       font-size: 9px;
