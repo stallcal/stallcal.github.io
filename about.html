@@ -9,7 +9,7 @@
   <body>
     <div class="heading-container">
       <div class="toolbar">
-        <a href="index.html">
+        <a href="home.html">
             <button>Home</button>
          <a href="about.html">
             <button>About</button>
@@ -19,11 +19,12 @@
         </a>
     </div>
   </div>
-    <h1 id="logo">     
 
+<div>>
+    <h2>     
         ▄▀█ █▄▄ █▀█ █░█ ▀█▀   █▀▄▀█ █▀▀
         █▀█ █▄█ █▄█ █▄█ ░█░   █░▀░█ ██▄
-    </h1>
+    </h2>
   </div>
 
   <div class="content">
@@ -47,6 +48,15 @@
   <footer class="footer">
       <p>© 2024 Caleb Stallard</p>
   </footer>
+
+  <script>
+      function removeHtmlExtension() {
+        var currentUrl = window.location.href;
+        var newUrl = currentUrl.replace('.html', '');
+        window.history.replaceState(null, null, newUrl);
+      }
+      window.onload = removeHtmlExtension;
+  </script>
     
 </body>
 </html>

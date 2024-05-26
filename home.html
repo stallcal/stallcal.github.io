@@ -12,10 +12,10 @@
 <body>
   <div class="heading-container">
     <div class="toolbar">
-        <a href="/home">
+        <a href="home.html">
             <button>Home</button>
         </a>
-        <a href="/about">
+        <a href="about.html">
             <button>About</button>
         </a>
         <a href="https://linkedin.com/in/calebstallard" class="button-link" target="_blank">
@@ -43,6 +43,16 @@
     <footer class="footer">
         <p>© 2024 Caleb Stallard</p>
     </footer>
+
+    <script>
+        function removeHtmlExtension() {
+          var currentUrl = window.location.href;
+          var newUrl = currentUrl.replace('.html', '');
+          window.history.replaceState(null, null, newUrl);
+        }
+        window.onload = removeHtmlExtension;
+    </script>
+    
 </body>
 
 </html>
