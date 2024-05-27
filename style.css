@@ -36,7 +36,7 @@ h1 {
 #logo {
   font-family: var(--main-font);
   font-size: 44px;
-  margin-top: 50px;
+  padding: auto;
 }
 
 h2 {
@@ -48,14 +48,14 @@ h2 {
 .toolbar {
   display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
   gap: 10px;
   background-color: #3791ec;
   width: 100%;
   height: 30px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .toolbar button {
